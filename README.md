@@ -1,5 +1,5 @@
 
-<h1><strong>Resume Parser Project Readme 📄</strong></h1>
+<h1><strong>Resume Parser/Analyzer 📄</strong></h1>
 
 <h2>Overview</h2>
 This project aims to streamline the process of resume analysis and ranking by extracting relevant information from resumes provided by users and comparing them against a job description provided by the HR department. The primary technologies used in this project are Python, Spacy for natural language processing (NLP), and cosine similarity for ranking.
