@@ -1,0 +1,107 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.7.4,<3.8.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"bff8725f4",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "transformer":[
+
+    ],
+    "ner":[
+      "College Name",
+      "Companies worked at",
+      "Degree",
+      "Designation",
+      "Email Address",
+      "Graduation Year",
+      "Location",
+      "Name",
+      "Skills",
+      "UNKNOWN",
+      "Years of Experience"
+    ]
+  },
+  "pipeline":[
+    "transformer",
+    "ner"
+  ],
+  "components":[
+    "transformer",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.5395799677,
+    "ents_p":0.5748709122,
+    "ents_r":0.5083713851,
+    "ents_per_type":{
+      "Name":{
+        "p":0.8571428571,
+        "r":0.9,
+        "f":0.8780487805
+      },
+      "Companies worked at":{
+        "p":0.3918128655,
+        "r":0.592920354,
+        "f":0.4718309859
+      },
+      "Designation":{
+        "p":0.5619047619,
+        "r":0.6860465116,
+        "f":0.6178010471
+      },
+      "Location":{
+        "p":0.6849315068,
+        "r":0.6756756757,
+        "f":0.6802721088
+      },
+      "Email Address":{
+        "p":0.7906976744,
+        "r":0.9444444444,
+        "f":0.8607594937
+      },
+      "Degree":{
+        "p":0.7586206897,
+        "r":0.4150943396,
+        "f":0.5365853659
+      },
+      "College Name":{
+        "p":0.6428571429,
+        "r":0.435483871,
+        "f":0.5192307692
+      },
+      "Graduation Year":{
+        "p":0.6326530612,
+        "r":0.4492753623,
+        "f":0.5254237288
+      },
+      "Skills":{
+        "p":0.2962962963,
+        "r":0.0695652174,
+        "f":0.1126760563
+      },
+      "Years of Experience":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      }
+    },
+    "transformer_loss":70541.5807660222,
+    "ner_loss":23973.3590420586
+  }
+}
